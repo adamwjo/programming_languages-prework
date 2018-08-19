@@ -5,7 +5,7 @@ def reformat_languages(languages)
     value.collect do |name, attribute|
       new_hash[name] ||= attribute
       new_hash[name][:style] ||= []
-      new_hash[name][:style] << keys
+      new_hash[name][:style] << key
     end
   end
   new_hash
