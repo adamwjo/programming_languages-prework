@@ -6,4 +6,5 @@ def reformat_languages(languages)
       new_hash[name] ||= attribute
     end
   end
+  new_hash
 end
